@@ -18,7 +18,7 @@ async function generateJoke() {
     jokeElement.innerHTML = data.joke;
 }
 
-// Without Async
+// Without Async function
 
 // function generateJoke() {
 //     const config = {
