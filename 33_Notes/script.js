@@ -1,5 +1,8 @@
 const addBtn = document.getElementById('add');
 
+// Session Storage
+// const notes =  JSON.parse(sessionStorage.getItem('notes'));
+
 const notes =  JSON.parse(localStorage.getItem('notes'));
 
 if(notes){
