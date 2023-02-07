@@ -40,6 +40,6 @@ function filterData(search) {
         } else {
             item.classList.add('hide');
         }
-    })
+    });
 }
 
